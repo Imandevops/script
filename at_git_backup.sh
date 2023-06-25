@@ -1,6 +1,5 @@
 #!/bin/bash
-# author nahid barooti
-# daily gitlab's backup
+
 
 LOCAL_BACKUP_ROOT="/var/opt/gitlab/backups"
 DATE=$(date +'%Y_%m_%d')
