@@ -5,14 +5,14 @@ LOCAL_BACKUP_ROOT="/var/opt/gitlab/backups"
 DATE=$(date +'%Y_%m_%d')
 
 #BACKUP_FILE=".*ee_gitlab_backup.tar"
-REMOTE_HOST="172.17.100.6"
+REMOTE_HOST="ip"
 REMOTE_BACKUP_ROOT="/Backup"
 REMOTE_DB_ROOT="Gitlab"
 REMOTE_MD5_ROOT="md5"
 REMOTE_USER="git"
 SCP_RATE="100000"
 MAIL_SUBJECT="gitlab's backup"
-MAIL_TO="app@asiatech.ir"
+MAIL_TO="devops@asiatech.ir"
 SEND_MAIL="/usr/bin/at_sendemail"
 #ACTIVE_NUMBERS=$(/usr/bin/sms_num.sh)
 
